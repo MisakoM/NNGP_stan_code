@@ -1,7 +1,7 @@
 # Stan code for NNGP
 
 This stan code is for estimating the effect of environmental factors on local extinction of Red list vascular plants following phylogenetic Gaussian Processes (GPs) implemented by nearest neighbour GP (NNGP) approximation using cmdstanr in R.
-Full methods are described in XXXX(2023).
+Full methods are described in Matsuba et al. (2023).
 
 
 # Data list
