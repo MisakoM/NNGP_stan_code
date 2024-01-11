@@ -12,4 +12,4 @@ Full methods are described in Matsuba et al. (2023).
 # Reference
 Jin, Y., & Qian, H. (2019). V. PhyloMaker: an R package that can generate very large phylogenies for vascular plants. Ecography, 42(8), 1353-1359. https://doi.org/10.1111/ecog.04434
 
-XXXX(2023)
+Matsuba. M., Fukasawa K., Aoki S.. Akasaka M., Ishihama F. (2023) Scalable phylogenetic Gaussian process models improve the detectability of environmental signals on extinction risks for many Red List species. BioRxiv. https://doi.org/10.1101/2023.06.21.545976 
