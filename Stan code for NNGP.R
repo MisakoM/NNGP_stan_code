@@ -6,7 +6,7 @@ library(V.PhyloMaker)
 
 # generate the phylogenetic distance
 splist <-read.csv("splist.csv")
-tree.a <-phylo.maker(sp.list = spdata, tree = GBOTB.extended, nodes = nodes.info.1, scenarios="S1")
+tree.a <-phylo.maker(sp.list = splist, tree = GBOTB.extended, nodes = nodes.info.1, scenarios="S1")
 tree.a$scenario.1$edge.length[tree.a$scenario.1$edge.length<0]<-0 
 tree_cop_zero_GBOTB <- ape::cophenetic.phylo(tree.a$scenario.1)
 treedata<-tree_cop_zero_GBOTB
